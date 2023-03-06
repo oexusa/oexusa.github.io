@@ -4,12 +4,34 @@
   <meta charset="UTF-8">
   <title>Thank You</title>
   <style>
+    body {
+      background-color: #F2F2F2;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
     #success-message {
       background-color: #8BC34A;
       color: #FFF;
-      padding: 10px;
+      padding: 20px;
       border-radius: 5px;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
     }
     button {
       background-color: #4285F4;
@@ -23,8 +45,13 @@
   </style>
 </head>
 <body>
-  <div id="success-message">Form submitted successfully!</div>
-  <button onclick="returnToForm()">Return to Form</button>
+  <div class="container">
+    <div id="success-message">
+      <h1>Thank You!</h1>
+      <p>Your form has been submitted successfully.</p>
+    </div>
+    <button onclick="returnToForm()">Return to Form</button>
+  </div>
   
   <script>
     setTimeout(function() {
