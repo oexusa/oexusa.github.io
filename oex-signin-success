@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You</title>
+  <style>
+    #success-message {
+      background-color: #8BC34A;
+      color: #FFF;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #4285F4;
+      color: #FFF;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="success-message">Form submitted successfully!</div>
+  <button onclick="returnToForm()">Return to Form</button>
+  
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://form.smartsuite.com/sb8vphei/Mg90RmDKmt";
+    }, 10000);
+
+    function returnToForm() {
+      window.location.href = "https://form.smartsuite.com/sb8vphei/Mg90RmDKmt";
+    }
+  </script>
+</body>
+</html>
